@@ -1,0 +1,189 @@
+body {
+    font-size: 0.5vw;
+    font-family: 'Courier New', Bold;
+    margin: 0;
+    line-height: 1.6;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background: url("../assets/img/backgroundwarface1.png") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 2160px;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    border: solid 2px #4c4c4c;
+    background-size: cover;
+    background: #4c4c4c;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    z-index: 1000;
+}
+
+.logo {
+    position: fixed;
+    top: 1.5vh;
+    left: 2vw;
+    height: 9vh;
+    width: 8vw;
+}
+
+.wlogo {
+    position: fixed;
+    top: 1.5vh;
+    left: 12vw;
+    height: 9vh;
+    width: 8vw;
+}
+
+.iframe {
+    width: 33vw;
+    height: 34vh;
+}
+
+.navigator {
+    font-size: 3vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 10%;
+    white-space: pre;
+    float: right;
+}
+.navuse {
+    font-size: 3vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 10%;
+    white-space: pre;
+    float: right;
+}
+
+.navuse:hover {
+    color: #77b3d4;
+}
+
+.navigator:hover {
+    color: #77b3d4;
+}
+
+.logo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.wlogo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.fpscontainer {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 10%;
+    background: #4c4c4c;
+    position: absolute;
+    top: 7vw;
+    width: 50vw;
+    height: 86vh;
+    left: 25vw;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.fpscontainer:hover {
+    opacity: 1;
+}
+
+.fpscontainer1 {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 10%;
+    background: #4c4c4c;
+    position: absolute;
+    top: 65vw;
+    width: 50vw;
+    height: 86vh;
+    left: 25vw;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.fpscontainer1:hover {
+    opacity: 1;
+}
+
+.fpstitle {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: white;
+}
+
+.fpstitleb {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: #77b3d4;
+}
+
+.fpstext {
+    font-size: 0.7vw;
+    font-family: Tahoma;
+    color: white;
+    margin-left: 3%;
+}
+
+.videoq {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: white;
+}
+.videoqb {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: #77b3d4;
+}
+
+.download {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 30%;
+    background: #77b3d4;
+    top: 90vh;
+    width: 20vw;
+    height: 6vh;
+    margin-left: 15vw;
+    text-decoration: none;
+}
+.dtext {
+    font-size: 1.1vw;
+    color: white;
+    font-family: Impact;
+    text-align: center;
+}
+
+.download:hover {
+    border: solid 2px black;
+    padding: 2px;
+}

@@ -1,0 +1,133 @@
+body {
+    font-size: 0.5vw;
+    font-family: 'Courier New', Bold;
+    margin: 0;
+    line-height: 1.6;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background: url("../assets/img/backgroundrules.png") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    border: solid 2px #4c4c4c;
+    background-size: cover;
+    background: #4c4c4c;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    z-index: 1000;
+}
+
+.logo {
+    position: fixed;
+    top: 1.5vh;
+    left: 2vw;
+    height: 9vh;
+    width: 8vw;
+}
+
+.wlogo {
+    position: fixed;
+    top: 1.5vh;
+    left: 12vw;
+    height: 9vh;
+    width: 8vw;
+}
+
+.navigator {
+    font-size: 3vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 10%;
+    white-space: pre;
+    float: right;
+}
+.navuse {
+    font-size: 3vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 10%;
+    white-space: pre;
+    float: right;
+}
+
+.navuse:hover {
+    color: #77b3d4;
+}
+
+.navigator:hover {
+    color: #77b3d4;
+}
+
+
+.logo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.wlogo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.newscontainer {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 10vh;
+    background: #4c4c4c;
+    position: absolute;
+    top: 25vh;
+    width: 50vw;
+    height: 40vh;
+    left: 25vw;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.newscontainer:hover {
+    opacity: 1;
+}
+
+.newstitle {
+    font-size: 5vh;
+    font-family: Courier New;
+    color: white;
+}
+
+.newstitleb {
+    font-size: 5vh;
+    font-family: Courier New;
+    color: #77b3d4;
+}
+
+.newstext {
+    font-size: 2vh;
+    font-family: Courier New;
+    color: white;
+    margin-left: 3%;
+}
